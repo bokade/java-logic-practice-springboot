@@ -1,8 +1,13 @@
 package JavaLogicBuilding.logic;
 
+import java.util.Arrays;
+
 public class MergeSortedArrays {
 
     public static int[] mergeArrays(int[] arr1, int[] arr2) {
+        Arrays.sort(arr1); // Ensuring sorted
+        Arrays.sort(arr2); // Ensuring sorted
+
         int n = arr1.length;
         int m = arr2.length;
 
@@ -33,7 +38,7 @@ public class MergeSortedArrays {
 
     public static void main(String[] args) {
         int[] arr1 = {1, 3, 5, 7};
-        int[] arr2 = {2, 4, 6, 8, 9};
+        int[] arr2 = {2, 4, 6, 8, 9,3,0};
 
         int[] result = mergeArrays(arr1, arr2);
 
