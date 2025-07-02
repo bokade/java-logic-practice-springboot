@@ -2,13 +2,14 @@ package JavaLogicBuilding.logic;
 
 public class ArmstrongCheck {
     public static void main(String[] args) {
-        int number = 153;
+        int number = 9474;
+        int digits = String.valueOf(number).length(); // Count digits
         int temp = number;
         int result = 0;
 
         while (temp != 0) {
             int digit = temp % 10;
-            result += digit * digit * digit;
+            result += Math.pow(digit, digits); // Raise to power of digits
             temp /= 10;
         }
 
