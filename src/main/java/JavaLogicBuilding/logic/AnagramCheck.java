@@ -13,7 +13,6 @@ public class AnagramCheck {
             System.out.println("Not Anagrams");
     }
 
-
     static boolean isAnagram(String s1, String s2) {
         if (s1.length() != s2.length()) return false;
         char[] arr1 = s1.toLowerCase().toCharArray();
