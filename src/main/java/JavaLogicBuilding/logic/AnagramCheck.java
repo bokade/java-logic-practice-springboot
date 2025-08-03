@@ -7,6 +7,7 @@ public class AnagramCheck {
         String str1 = "listen";
         String str2 = "silent";
 
+
         if (isAnagram(str1, str2))
             System.out.println("Anagrams");
         else
