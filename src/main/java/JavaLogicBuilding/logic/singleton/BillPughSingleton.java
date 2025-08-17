@@ -1,4 +1,4 @@
-package JavaLogicBuilding.logic;
+package JavaLogicBuilding.logic.singleton;
 
 class BillPughSingleton {
 
