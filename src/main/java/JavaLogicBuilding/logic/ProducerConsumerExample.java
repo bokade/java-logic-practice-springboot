@@ -50,6 +50,7 @@ public class ProducerConsumerExample {
             }
         });
 
+
         // Consumer thread
         Thread consumer = new Thread(() -> {
             try {
