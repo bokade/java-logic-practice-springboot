@@ -54,6 +54,7 @@ public class BitwiseAndConversionDemo {
         System.out.println("a >>> 2= " + (a >>> 2) + " (" + toBinary(a >>> 2) + ")");
     }
 
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("===== Bitwise & Number System Conversion Demo =====");
