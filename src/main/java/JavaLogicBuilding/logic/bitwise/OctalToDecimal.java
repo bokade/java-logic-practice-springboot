@@ -5,6 +5,7 @@ class OctalToDecimal {
         String octal = "32";
         int result = 0;
 
+
         for (int i = 0; i < octal.length(); i++) {
             char c = octal.charAt(octal.length() - 1 - i);
             int digit = c - '0';
