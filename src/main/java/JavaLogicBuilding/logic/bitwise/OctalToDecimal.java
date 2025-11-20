@@ -12,6 +12,7 @@ class OctalToDecimal {
             result += digit * Math.pow(8, i);
         }
 
+
         System.out.println("Decimal: " + result);
     }
 }
