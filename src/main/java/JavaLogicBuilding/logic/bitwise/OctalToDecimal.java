@@ -13,6 +13,7 @@ class OctalToDecimal {
         }
 
 
+
         System.out.println("Decimal: " + result);
     }
 }
