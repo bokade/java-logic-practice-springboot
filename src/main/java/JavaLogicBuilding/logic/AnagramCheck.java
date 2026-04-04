@@ -9,6 +9,7 @@ public class AnagramCheck {
 
 
 
+
         if (isAnagram(str1, str2))
             System.out.println("Anagrams");
         else
