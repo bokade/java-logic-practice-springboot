@@ -7,16 +7,11 @@ public class AnagramCheck {
         String str1 = "listen";
         String str2 = "silent";
 
-
-
-
         if (isAnagram(str1, str2))
             System.out.println("Anagrams");
         else
             System.out.println("Not Anagrams");
     }
-
-
 
     static boolean isAnagram(String s1, String s2) {
         if (s1.length() != s2.length()) return false;
